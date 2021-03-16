@@ -1,0 +1,12 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Workflow In Fork
+
+on:
+  - repository_dispatch
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo example
